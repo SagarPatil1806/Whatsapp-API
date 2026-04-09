@@ -16,7 +16,7 @@ async function sendTemplateMessage()
         },
         data:JSON.stringify({
             messaging_product:'whatsapp',
-            to:'919689049445',
+            to:'919********5',
             type:'template',
             template:{
                 name:'hello_world',
@@ -44,7 +44,7 @@ async function sendTemplateMessage()
 //         },
 //         data:JSON.stringify({
 //             messaging_product:'whatsapp',
-//             to:'919689049445',
+//             to:'919********5',
 //             type:'template',
 //             template:{
 //                 name:'jersey',
@@ -71,7 +71,7 @@ async function sendTextMessage()
         },
         data:JSON.stringify({
             messaging_product:'whatsapp',
-            to:'919689049445',
+            to:'919********5',
             type:'text',
             text:{
                 body:'This is a text message'
@@ -95,7 +95,7 @@ async function sendMediaMessage()
         },
         data:JSON.stringify({
             messaging_product:'whatsapp',
-            to:'919689049445',
+            to:'919********5',
             type:'image',
             image:{
                // link:'https://dummyimage.com/600x400/000/fff.png&text=image.io',
@@ -132,5 +132,5 @@ async function uploadImage()
 
 //sendTemplateMessage()
 //sendTextMessage()
-sendMediaMessage()
+//sendMediaMessage()
 // uploadImage()
